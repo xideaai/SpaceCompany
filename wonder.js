@@ -74,8 +74,8 @@ function refreshWonderBars(){
         updateProgressBar("preciousActivateBar", preciousActivateBar * 100);
 	}
 	if(contains(resourcesUnlocked, "energeticWonderNav") === false){
-		var energeticWood = Math.min(energeticWoodCost, getResource(RESOURCE.Wood));
-		var energeticCharcoal = Math.min(energeticCharcoalCost, getResource(RESOURCE.Charcoal));
+		var energeticWood = Math.min(energeticWoodCost, getResource(RESOURCE.Fiber));
+		var energeticCharcoal = Math.min(energeticCharcoalCost, getResource(RESOURCE.Titanium));
 		var energeticUranium = Math.min(energeticUraniumCost, getResource(RESOURCE.Uranium));
 
 		var energeticBar = (energeticWood + energeticCharcoal + energeticUranium)
@@ -83,8 +83,8 @@ function refreshWonderBars(){
 		updateProgressBar("energeticBar", energeticBar * 100);
 	}
 	if((document.getElementById("activateEnergeticWonder").className === "hidden") === false){
-		var energeticActivateWood = Math.min(energeticActivateWoodCost, getResource(RESOURCE.Wood));
-		var energeticActivateCharcoal = Math.min(energeticActivateCharcoalCost, getResource(RESOURCE.Charcoal));
+		var energeticActivateWood = Math.min(energeticActivateWoodCost, getResource(RESOURCE.Fiber));
+		var energeticActivateCharcoal = Math.min(energeticActivateCharcoalCost, getResource(RESOURCE.Titanium));
 		var energeticActivateUranium = Math.min(energeticActivateUraniumCost, getResource(RESOURCE.Uranium));
 
 		var energeticActivateBar = (energeticActivateWood + energeticActivateCharcoal + energeticActivateUranium)
@@ -139,7 +139,7 @@ function refreshWonderBars(){
 	if((document.getElementById("rebuildRocketWonder").className === "hidden") === false){
 		var rebuildRocketLunarite = Math.min(rocketWonderLunariteCost, getResource(RESOURCE.Lunarite));
 		var rebuildRocketTitanium = Math.min(rocketWonderTitaniumCost, getResource(RESOURCE.Titanium));
-		var rebuildRocketMetal = Math.min(rocketWonderMetalCost, getResource(RESOURCE.Metal));
+		var rebuildRocketMetal = Math.min(rocketWonderMetalCost, getResource(RESOURCE.Aluminum));
 
 		var rocketWonderBar = (rebuildRocketLunarite + rebuildRocketTitanium + rebuildRocketMetal)
 			/ (rocketWonderLunariteCost + rocketWonderTitaniumCost + rocketWonderMetalCost);
@@ -148,7 +148,7 @@ function refreshWonderBars(){
 	if((document.getElementById("rebuildAntimatterWonder").className === "hidden") === false){
 		var rebuildAntimatterUranium = Math.min(antimatterWonderUraniumCost, getResource(RESOURCE.Uranium));
 		var rebuildAntimatterLava = Math.min(antimatterWonderLavaCost, getResource(RESOURCE.Lava));
-		var rebuildAntimatterOil = Math.min(antimatterWonderOilCost, getResource(RESOURCE.Oil));
+		var rebuildAntimatterOil = Math.min(antimatterWonderOilCost, getResource(RESOURCE.Steel));
 		var rebuildAntimatterMethane = Math.min(antimatterWonderMethaneCost, getResource(RESOURCE.Methane));
 
 		var antimatterWonderBar = (rebuildAntimatterUranium+rebuildAntimatterLava+rebuildAntimatterOil+rebuildAntimatterMethane)
@@ -304,9 +304,9 @@ function activatePreciousWonder(){
 }
 
 function achieveEnergeticWonder(){
-	if(getResource(RESOURCE.Wood) >= energeticWoodCost && getResource(RESOURCE.Charcoal) >= energeticCharcoalCost && getResource(RESOURCE.Uranium) >= energeticUraniumCost){
-		Game.resources.takeResource(RESOURCE.Wood, energeticWoodCost);
-		Game.resources.takeResource(RESOURCE.Charcoal, energeticCharcoalCost);
+	if(getResource(RESOURCE.Fiber) >= energeticWoodCost && getResource(RESOURCE.Titanium) >= energeticCharcoalCost && getResource(RESOURCE.Uranium) >= energeticUraniumCost){
+		Game.resources.takeResource(RESOURCE.Fiber, energeticWoodCost);
+		Game.resources.takeResource(RESOURCE.Titanium, energeticCharcoalCost);
 		Game.resources.takeResource(RESOURCE.Uranium, energeticUraniumCost);
 		document.getElementById("energeticWonderButton").className = "hidden";
 		document.getElementById("energeticProgress").className = "hidden";
@@ -318,9 +318,9 @@ function achieveEnergeticWonder(){
 }
 
 function activateEnergeticWonder(){
-	if(getResource(RESOURCE.Wood) >= energeticActivateWoodCost && getResource(RESOURCE.Charcoal) >= energeticActivateCharcoalCost && getResource(RESOURCE.Uranium) >= energeticActivateUraniumCost){
-		Game.resources.takeResource(RESOURCE.Wood, energeticActivateWoodCost);
-		Game.resources.takeResource(RESOURCE.Charcoal, energeticActivateCharcoalCost);
+	if(getResource(RESOURCE.Fiber) >= energeticActivateWoodCost && getResource(RESOURCE.Titanium) >= energeticActivateCharcoalCost && getResource(RESOURCE.Uranium) >= energeticActivateUraniumCost){
+		Game.resources.takeResource(RESOURCE.Fiber, energeticActivateWoodCost);
+		Game.resources.takeResource(RESOURCE.Titanium, energeticActivateCharcoalCost);
 		Game.resources.takeResource(RESOURCE.Uranium, energeticActivateUraniumCost);
 		document.getElementById("magmaticPower").className = "";
 		document.getElementById("activateEnergeticWonder").className = "hidden";
@@ -430,10 +430,10 @@ function rebuildCommsWonder(){
 }
 
 function rebuildRocketWonder(){
-	if(getResource(RESOURCE.Lunarite) >= rocketWonderLunariteCost && getResource(RESOURCE.Titanium) >= rocketWonderTitaniumCost && getResource(RESOURCE.Metal) >= rocketWonderMetalCost){
+	if(getResource(RESOURCE.Lunarite) >= rocketWonderLunariteCost && getResource(RESOURCE.Titanium) >= rocketWonderTitaniumCost && getResource(RESOURCE.Aluminum) >= rocketWonderMetalCost){
 		Game.resources.takeResource(RESOURCE.Lunarite, rocketWonderLunariteCost);
 		Game.resources.takeResource(RESOURCE.Titanium, rocketWonderTitaniumCost);
-		Game.resources.takeResource(RESOURCE.Metal, rocketWonderMetalCost);
+		Game.resources.takeResource(RESOURCE.Aluminum, rocketWonderMetalCost);
 		document.getElementById("rebuildRocketWonder").className = "hidden";
 		document.getElementById("rocketActivation").textContent = "Activated";
 		document.getElementById("rocketActivation").className = "green";
@@ -456,10 +456,10 @@ function rebuildRocketWonder(){
 
 function rebuildAntimatterWonder(){
 	if(getResource(RESOURCE.Uranium) >= antimatterWonderUraniumCost && getResource(RESOURCE.Lava) >= antimatterWonderLavaCost
-		&& getResource(RESOURCE.Oil) >= antimatterWonderOilCost && getResource(RESOURCE.Methane) >= antimatterWonderMethaneCost){
+		&& getResource(RESOURCE.Steel) >= antimatterWonderOilCost && getResource(RESOURCE.Methane) >= antimatterWonderMethaneCost){
 		Game.resources.takeResource(RESOURCE.Uranium, antimatterWonderUraniumCost);
 		Game.resources.takeResource(RESOURCE.Lava, antimatterWonderLavaCost);
-		Game.resources.takeResource(RESOURCE.Oil, antimatterWonderOilCost);
+		Game.resources.takeResource(RESOURCE.Steel, antimatterWonderOilCost);
 		Game.resources.takeResource(RESOURCE.Methane, antimatterWonderMethaneCost);
 		document.getElementById("rebuildAntimatterWonder").className = "hidden";
 		document.getElementById("antimatterActivation").textContent = "Activated";

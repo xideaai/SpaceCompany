@@ -148,7 +148,7 @@ Game.updatesData = (function(){
 	};
 
 	instance.lunarite = {
-		desc: 'Changed Space Metal to Lunarite',
+		desc: 'Changed Space Aluminum to Lunarite',
 		read: false
 	};
 
@@ -233,7 +233,7 @@ Game.updatesData = (function(){
 	};
 
 	instance.buffOilT3 = {
-		desc: 'Reduced Oil T3 energy cost',
+		desc: 'Reduced Steel T3 energy cost',
 		read: false
 	};
 

@@ -90,25 +90,25 @@ Game.achievementsData = (function(){
 		id_v4: 'ach_5',
 		categoryInstance: Game.achievementsCategoryData.resources,
 		iconName: 'oilIcon',
-		title: 'Collect %s Oil',
-		evaluator: function(x) { return getResource(RESOURCE.Oil) >= x },
-		progressEvaluator: function(x) { return getResource(RESOURCE.Oil) / x }
+		title: 'Collect %s Steel',
+		evaluator: function(x) { return getResource(RESOURCE.Steel) >= x },
+		progressEvaluator: function(x) { return getResource(RESOURCE.Steel) / x }
 	};
 	
 	instance.resMetal = {
 		id_v4: 'ach_0',
 		categoryInstance: Game.achievementsCategoryData.resources,
 		iconName: 'metalIcon',
-		title: 'Collect %s Metal',
-		evaluator: function(x) { return getResource(RESOURCE.Metal) >= x },
-		progressEvaluator: function(x) { return getResource(RESOURCE.Metal) / x }
+		title: 'Collect %s Aluminum',
+		evaluator: function(x) { return getResource(RESOURCE.Aluminum) >= x },
+		progressEvaluator: function(x) { return getResource(RESOURCE.Aluminum) / x }
 	};
 	
 	instance.resGems = {
 		id_v4: 'ach_1',
 		categoryInstance: Game.achievementsCategoryData.resources,
 		iconName: 'gemIcon',
-		title: 'Collect %s Gems',
+		title: 'Collect %s Copper',
 		evaluator: function(x) { return getResource(RESOURCE.Gem) >= x },
 		progressEvaluator: function(x) { return getResource(RESOURCE.Gem) / x }
 	};
@@ -117,18 +117,18 @@ Game.achievementsData = (function(){
 		id_v4: 'ach_3',
 		categoryInstance: Game.achievementsCategoryData.resources,
 		iconName: 'charcoalIcon',
-		title: 'Collect %s Charcoal',
-		evaluator: function(x) { return getResource(RESOURCE.Charcoal) >= x },
-		progressEvaluator: function(x) { return getResource(RESOURCE.Charcoal) / x }
+		title: 'Collect %s Titanium',
+		evaluator: function(x) { return getResource(RESOURCE.Titanium) >= x },
+		progressEvaluator: function(x) { return getResource(RESOURCE.Titanium) / x }
 	};
 
 	instance.resWood = {
 		id_v4: 'ach_2',
 		categoryInstance: Game.achievementsCategoryData.resources,
 		iconName: 'woodIcon',
-		title: 'Collect %s Wood',
-		evaluator: function(x) { return getResource(RESOURCE.Wood) >= x },
-		progressEvaluator: function(x) { return getResource(RESOURCE.Wood) / x }
+		title: 'Collect %s Fiber',
+		evaluator: function(x) { return getResource(RESOURCE.Fiber) >= x },
+		progressEvaluator: function(x) { return getResource(RESOURCE.Fiber) / x }
 	};
 
 	instance.resSilicon = {
@@ -246,7 +246,7 @@ Game.achievementsData = (function(){
 		id_v4: 'ach_18',
 		categoryInstance: Game.achievementsCategoryData.producers,
 		iconName: 'EnergyIcon',
-		title: 'Build %s Charcoal Engines',
+		title: 'Build %s Titanium Engines',
 		evaluator: function(x) { return charcoalEngine >= x },
 		progressEvaluator: function(x) { return charcoalEngine/x }
 	};
@@ -435,7 +435,7 @@ Game.achievementsData = (function(){
 		id_v4: 'ach_32',
 		categoryInstance: Game.achievementsCategoryData.producers,
 		iconName: 'oilIcon',
-		title: 'Build %s Oil Fields',
+		title: 'Build %s Steel Fields',
 		evaluator: function(x) { return oilField >= x },
 		progressEvaluator: function(x) { return oilField/x }
 	};

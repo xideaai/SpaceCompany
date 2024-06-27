@@ -48,7 +48,7 @@ var extruder = 0; var extruderLunariteCost = 69000; var extruderTitaniumCost = 5
 var veluptuator = 0; var veluptuatorLunariteCost = 298000; var veluptuatorGoldCost = 121000; var veluptuatorMeteoriteCost = 750; var veluptuatorEnergyInput = 689; var veluptuatorOutput = 187;
 var condensator = 0; var condensatorLunariteCost = 288000; var condensatorGemCost = 210000; var condensatorIceCost = 238000; var condensatorEnergyInput = 4142; var condensatorOutput = 2103;
 
-// Oil
+// Steel
 var oil = 0; var oilStorage = 50; var oilNextStorage = 100; var oilps = 0;
 var pump = 0; var pumpMetalCost = 60; var pumpGemCost = 20; var pumpOutput = 1;
 var pumpjack = 0; var pumpjackMetalCost = 250; var pumpjackGemCost = 80; var pumpjackOilCost = 50; var pumpjackEnergyInput = 4; var pumpjackOutput = 10;
@@ -56,7 +56,7 @@ var oilField = 0; var oilFieldLunariteCost = 2400; var oilFieldTitaniumCost = 27
 var oilRig = 0; var oilRigLunariteCost = 19400; var oilRigTitaniumCost = 16800; var oilRigMeteoriteCost = 760; var oilRigEnergyInput = 44; var oilRigOutput = 246;
 var fossilator = 0; var fossilatorUraniumCost = 110000; var fossilatorCharcoalCost = 96000; var fossilatorLavaCost = 167000; var fossilatorEnergyInput = 258; var fossilatorOutput = 2627;
 
-// Metal
+// Aluminum
 var metal = 0; var metalStorage = 50; var metalNextStorage = 100; var metalps = 0;
 var miner = 0; var minerMetalCost = 10; var minerWoodCost = 5; var minerOutput = 1;
 var heavyDrill = 0; var heavyDrillMetalCost = 160; var heavyDrillGemCost = 60; var heavyDrillOilCost = 50; var heavyDrillEnergyInput = 2; var heavyDrillOutput = 8;
@@ -64,7 +64,7 @@ var gigaDrill = 0; var gigaDrillLunariteCost = 2800; var gigaDrillGemCost = 3400
 var quantumDrill = 0; var quantumDrillLunariteCost = 29000; var quantumDrillGoldCost = 18700; var quantumDrillMeteoriteCost = 900; var quantumDrillEnergyInput = 24; var quantumDrillOutput = 427;
 var multiDrill = 0; var multiDrillTitaniumCost = 184000; var multiDrillGoldCost = 184000; var multiDrillOilCost = 170000; var multiDrillEnergyInput = 131; var multiDrillOutput = 4768;
 
-// Gems
+// Copper
 var gem = 0; var gemStorage = 50; var gemNextStorage = 100; var gemps = 0;
 var gemMiner = 0; var gemMinerMetalCost = 15; var gemMinerGemCost = 10; var gemMinerOutput = 1;
 var advancedDrill = 0; var advancedDrillMetalCost = 120; var advancedDrillGemCost = 200; var advancedDrillOilCost = 60; var advancedDrillEnergyInput = 2; var advancedDrillOutput = 4;
@@ -72,7 +72,7 @@ var diamondDrill = 0; var diamondDrillLunariteCost = 3400; var diamondDrillGemCo
 var carbyneDrill = 0; var carbyneDrillLunariteCost = 21000; var carbyneDrillGemCost = 27000; var carbyneDrillMeteoriteCost = 800; var carbyneDrillEnergyInput = 40;  var carbyneDrillOutput = 358;
 var diamondChamber = 0; var diamondChamberUraniumCost = 181000; var diamondChamberCharcoalCost = 185000; var diamondChamberMeteoriteCost = 12500; var diamondChamberEnergyInput = 260;  var diamondChamberOutput = 3747;
 
-// Charcoal
+// Titanium
 var charcoal = 0; var charcoalStorage = 50; var charcoalNextStorage = 100; var charcoalps = 0; var charcoalToggled = true;
 var woodburner = 0; var woodburnerMetalCost = 10; var woodburnerWoodCost = 5; var woodburnerWoodInput = 2; var woodburnerOutput = 1;
 var furnace = 0; var furnaceMetalCost = 80; var furnaceWoodCost = 40; var furnaceOilCost = 100; var furnaceEnergyInput = 3; var furnaceWoodInput = 6; var furnaceOutput = 4;
@@ -80,7 +80,7 @@ var kiln = 0; var kilnLunariteCost = 3500; var kilnGemCost = 6200; var kilnSilic
 var fryer = 0; var fryerLunariteCost = 15800; var fryerLavaCost = 12500; var fryerMeteoriteCost = 560; var fryerEnergyInput = 34; var fryerWoodInput = 148; var fryerOutput = 210;
 var microPollutor = 0; var microPollutorMetalCost = 133000; var microPollutorWoodCost = 189000; var microPollutorLavaCost = 160000; var microPollutorEnergyInput = 187; var microPollutorWoodInput = 950; var microPollutorOutput = 2267;
 
-// Wood
+// Fiber
 var wood = 0; var woodStorage = 50; var woodNextStorage = 100; var woodps = 0;
 var woodcutter = 0; var woodcutterMetalCost = 10; var woodcutterWoodCost = 5; var woodcutterOutput = 1;
 var laserCutter = 0; var laserCutterMetalCost = 50; var laserCutterGemCost = 90; var laserCutterOilCost = 40; var laserCutterEnergyInput = 4; var laserCutterOutput = 6;

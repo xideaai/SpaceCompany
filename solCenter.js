@@ -1,11 +1,11 @@
 // Sol Center Tab
 
 function unlockPlasmaResearch(){
-	if(getResource(RESOURCE.Hydrogen) >= 1500 && getResource(RESOURCE.Uranium) >= 1500 && getResource(RESOURCE.Oil) >= 15000 && getResource(RESOURCE.Wood) >= 15000){
+	if(getResource(RESOURCE.Hydrogen) >= 1500 && getResource(RESOURCE.Uranium) >= 1500 && getResource(RESOURCE.Steel) >= 15000 && getResource(RESOURCE.Fiber) >= 15000){
 		Game.resources.takeResource(RESOURCE.Hydrogen, 1500);
 		Game.resources.takeResource(RESOURCE.Uranium, 1500);
-		Game.resources.takeResource(RESOURCE.Oil, 15000);
-		Game.resources.takeResource(RESOURCE.Wood, 15000);
+		Game.resources.takeResource(RESOURCE.Steel, 15000);
+		Game.resources.takeResource(RESOURCE.Fiber, 15000);
 		document.getElementById("researchPlasma").className = "hidden";
 		document.getElementById("unlockPlasma").className = "";
 		Game.tech.unlockTech("unlockPlasma");

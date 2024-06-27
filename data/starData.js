@@ -68,7 +68,7 @@ Game.starData = (function(){
 		planets: 1,
 		faction: "Moviton Syndicate",
 		factionId: "moviton",
-		resource1: "Charcoal",
+		resource1: "Titanium",
 		resource2: "Methane",
 		stats: {
 			"power": 146,
@@ -129,7 +129,7 @@ Game.starData = (function(){
 		factionId: "prasnian",
 		faction: "Prasnian Empire",
 		resource1: "Hydrogen",
-		resource2: "Metal",
+		resource2: "Aluminum",
 		stats: {
 			"power": 293,
 			"defense": 112,
@@ -143,7 +143,7 @@ Game.starData = (function(){
 		planets: 5,
 		factionId: "kitrinos",
 		faction: "Kitrinos Corporation",
-		resource1: "Oil",
+		resource1: "Steel",
 		resource2: "Lava",
 		stats: {
 			"power": 443,
@@ -174,7 +174,7 @@ Game.starData = (function(){
 		factionId: "hyacinite",
 		faction: "Hyacinite Congregation",
 		resource1: "Silver",
-		resource2: "Metal",
+		resource2: "Aluminum",
 		stats: {
 			"power": 420,
 			"defense": 143,
@@ -189,7 +189,7 @@ Game.starData = (function(){
 		factionId: "carnelian",
 		faction: "Carnelian Resistance",
 		resource1: "Gem",
-		resource2: "Charcoal",
+		resource2: "Titanium",
 		stats: {
 			"power": 397,
 			"defense": 381,
@@ -279,7 +279,7 @@ Game.starData = (function(){
 		factionId: "carnelian",
 		faction: "Carnelian Resistance",
 		resource1: "Gem",
-		resource2: "Oil",
+		resource2: "Steel",
 		stats: {
 			"power": 317,
 			"defense": 202,
@@ -413,8 +413,8 @@ Game.starData = (function(){
 		planets: 1,
 		factionId: "moviton",
 		faction: "Moviton Syndicate",
-		resource1: "Wood",
-		resource2: "Metal",
+		resource1: "Fiber",
+		resource2: "Aluminum",
 		stats: {
 			"power": 587,
 			"defense": 285,
@@ -428,7 +428,7 @@ Game.starData = (function(){
 		planets: 1,
 		factionId: "hyacinite",
 		faction: "Hyacinite Congregation",
-		resource1: "Charcoal",
+		resource1: "Titanium",
 		resource2: "Lava",
 		stats: {
 			"power": 430,
@@ -443,7 +443,7 @@ Game.starData = (function(){
 		planets: 5,
 		factionId: "moviton",
 		faction: "Moviton Syndicate",
-		resource1: "Metal",
+		resource1: "Aluminum",
 		resource2: "Meteorite",
 		stats: {
 			"power": 705,
@@ -503,7 +503,7 @@ Game.starData = (function(){
 		planets: 2,
 		factionId: "moviton",
 		faction: "Moviton Syndicate",
-		resource1: "Metal",
+		resource1: "Aluminum",
 		resource2: "Hydrogen",
 		stats: {
 			"power": 568,
@@ -653,7 +653,7 @@ Game.starData = (function(){
 		planets: 2,
 		factionId: "moviton",
 		faction: "Moviton Syndicate",
-		resource1: "Oil",
+		resource1: "Steel",
 		resource2: "Methane",
 		stats: {
 			"power": 443,
@@ -668,7 +668,7 @@ Game.starData = (function(){
 		planets: 4,
 		factionId: "kitrinos",
 		faction: "Kitrinos Corporation",
-		resource1: "Wood",
+		resource1: "Fiber",
 		resource2: "Meteorite",
 		stats: {
 			"power": 411,
@@ -699,7 +699,7 @@ Game.starData = (function(){
 		factionId: "kitrinos",
 		faction: "Kitrinos Corporation",
 		resource1: "Hydrogen",
-		resource2: "Charcoal",
+		resource2: "Titanium",
 		stats: {
 			"power": 602,
 			"defense": 555,
@@ -714,7 +714,7 @@ Game.starData = (function(){
 		factionId: "prasnian",
 		faction: "Prasnian Empire",
 		resource1: "Methane",
-		resource2: "Metal",
+		resource2: "Aluminum",
 		stats: {
 			"power": 559,
 			"defense": 388,
@@ -758,7 +758,7 @@ Game.starData = (function(){
 		planets: 1,
 		factionId: "carnelian",
 		faction: "Carnelian Resistance",
-		resource1: "Charcoal",
+		resource1: "Titanium",
 		resource2: "Gold",
 		stats: {
 			"power": 956,
@@ -804,7 +804,7 @@ Game.starData = (function(){
 		factionId: "prasnian",
 		faction: "Prasnian Empire",
 		resource1: "Hydrogen",
-		resource2: "Wood",
+		resource2: "Fiber",
 		stats: {
 			"power": 1247,
 			"defense": 589,
@@ -848,7 +848,7 @@ Game.starData = (function(){
 		planets: 5,
 		factionId: "moviton",
 		faction: "Moviton Syndicate",
-		resource1: "Wood",
+		resource1: "Fiber",
 		resource2: "Uranium",
 		stats: {
 			"power": 873,
@@ -893,7 +893,7 @@ Game.starData = (function(){
 		planets: 5,
 		factionId: "carnelian",
 		faction: "Carnelian Resistance",
-		resource1: "Charcoal",
+		resource1: "Titanium",
 		resource2: "Silicon",
 		stats: {
 			"power": 1415,
@@ -908,7 +908,7 @@ Game.starData = (function(){
 		planets: 1,
 		factionId: "prasnian",
 		faction: "Prasnian Empire",
-		resource1: "Oil",
+		resource1: "Steel",
 		resource2: "Gem",
 		stats: {
 			"power": 370,
@@ -953,8 +953,8 @@ Game.starData = (function(){
 		planets: 1,
 		factionId: "prasnian",
 		faction: "Prasnian Empire",
-		resource1: "Oil",
-		resource2: "Metal",
+		resource1: "Steel",
+		resource2: "Aluminum",
 		stats: {
 			"power": 762,
 			"defense": 511,
@@ -1028,7 +1028,7 @@ Game.starData = (function(){
 		planets: 1,
 		factionId: "moviton",
 		faction: "Moviton Syndicate",
-		resource1: "Metal",
+		resource1: "Aluminum",
 		resource2: "Titanium",
 		stats: {
 			"power": 1095,
@@ -1088,7 +1088,7 @@ Game.starData = (function(){
 		planets: 1,
 		factionId: "carnelian",
 		faction: "Carnelian Resistance",
-		resource1: "Wood",
+		resource1: "Fiber",
 		resource2: "Meteorite",
 		stats: {
 			"power": 1232,
@@ -1148,7 +1148,7 @@ Game.starData = (function(){
 		planets: 1,
 		factionId: "carnelian",
 		faction: "Carnelian Resistance",
-		resource1: "Oil",
+		resource1: "Steel",
 		resource2: "Lunarite",
 		stats: {
 			"power": 1570,
@@ -1179,7 +1179,7 @@ Game.starData = (function(){
 		factionId: "prasnian",
 		faction: "Prasnian Empire",
 		resource1: "Hydrogen",
-		resource2: "Metal",
+		resource2: "Aluminum",
 		stats: {
 			"power": 1769,
 			"defense": 631,

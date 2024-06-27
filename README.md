@@ -23,7 +23,7 @@ v1.0 The Overlord Update
 https://www.reddit.com/r/SpaceCompany/wiki/futureplans#wiki_v0.6
 
 - Adding Lore onto every Building and an introduction to your Space Company
-- Rebalance all costs to not use as much Lunarite/Gems
+- Rebalance all costs to not use as much Lunarite/Copper
 - Loading screen flavour text changes as you progress
 - Machine Overview Tab
 
@@ -63,7 +63,7 @@ v0.5.1 in progress
 - Balanced Ice T5 to have cost just below storage level rather than above it
 - AutoEmc keeps a 10K bank of plasma to avoid meteorite production depletion due to 0 plasma stored
 - Buffed Capital Ship\' power and defense
-- Reduced Oil T3 energy cost
+- Reduced Steel T3 energy cost
 - Made Science and Resource Efficiency multiplicative with dark matter boost
 - Forces Swarms to use ShortName formatting for accuracy with DM scaling
 - Renamed some generic stars (thanks /u/Misacek01)
@@ -118,7 +118,7 @@ v0.5.1 in progress
 - Hydrazine Catalyst - T3 Rocket Fuel
 - Interstellar Radar Scanner
 - Achievement Ranks
-- Renamed Space Metal as Lunarite
+- Renamed Space Aluminum as Lunarite
 - The Wonder Tab hides itself when completed (makes space for more tabs)
 - Rebuilt Achievement Tooltips
 - Dark Matter
@@ -213,13 +213,13 @@ v0.5.1 in progress
 - Reworked EMC UI
 - Energy Conversion Changes
 - Reworded Chemical Plant Description
-- Reprogrammed Charcoal Production
+- Reprogrammed Titanium Production
 - Changed Laboratory Names and Descriptions
 - Destruction of Rocket Fuel Machines
 - Changed Order of Achievements
 - Prevented Building Multiple Dyson Spheres
 - Made All Numbers >1000 4 Digits Long
-- Changed Ice T4 to use Wood
+- Changed Ice T4 to use Fiber
 - Days on Time Stats
 - Changed Links in FAQ to open in new tab
 - Notifications for Achievements and Autosaving and for when Storage is full
@@ -227,7 +227,7 @@ v0.5.1 in progress
 - Added LICENCE.txt
 
 ##### Bug Fixes
-- Fixed Oil Rig Costs
+- Fixed Steel Rig Costs
 - Fixed Helium T4 Red Costs
 - Fixed Dyson Section Reset Costs
 - Fixed Cyborg UI Bug
@@ -235,7 +235,7 @@ v0.5.1 in progress
 - Fixed Exploring Wonder Showing '!' on Resources Tab
 - Fixed Importing Without Data Wiping Saves
 - Fixed Highlighting Bugs
-- Fixed Charcoal Burners Not Using Wood
+- Fixed Titanium Burners Not Using Fiber
 - Fixed Oxidisation UI Bug
 - Fixed Session Time Not Resetting
 - Fixed Meteorite Filling Storage Bug
@@ -251,7 +251,7 @@ v0.5.1 in progress
 - Fixed Meteorite Wonder Cost Bug
 - Fixed Titanium T4 Energy Costs
 - Fixed Dyson Costs Jumping to 3rd from 1st
-- Fixed Metal Icon not being transparent
+- Fixed Aluminum Icon not being transparent
 
 v0.4.2
 - Option for bold text on red costs
@@ -312,12 +312,12 @@ v0.3.0 The Tech Update [Pushed to Beta]
 - More Statistics
 - Loading Screen
 - Fixed Typos
-- Fixed Wood/Charcoal Bugs
+- Fixed Fiber/Titanium Bugs
 
 v0.2.2
 - If you do not have enough resources for something, the number will be red
 - You can collapse resources into earth and space categories
-- Buffed Charcoal Engines and Solar Panels to stop people falling into a 'negative energy hole'
+- Buffed Titanium Engines and Solar Panels to stop people falling into a 'negative energy hole'
 - Nuclear & Magmatic Power
 - Nerfed Methane Station
 
@@ -330,7 +330,7 @@ v0.2.0 The Wondrous Update [Released To The Public]
 - ability to upgrade Wonders
 - Uranium & Lava
 - Widened resources navigation so that storage could be displayed on one line
-- Solar Panel and Charcoal Engine Upgrades
+- Solar Panel and Titanium Engine Upgrades
 - Statistics
 - Settings
 - Import and Export
@@ -370,7 +370,7 @@ v0.0.5
 
 v0.0.4 
 - Balanced Game More (to not take 2 minutes to complete)
-- Fixed Wood/sec bug
+- Fixed Fiber/sec bug
 - Made all resource gatherers increase in cost as you buy them
 - Fixed Resource Machines not using energy
 - Changed storage upgrades to cost metal as well
@@ -379,7 +379,7 @@ v0.0.3
 - Removed cap on energy
 - Solar Panels
 - Resource Gathering Machine were added that use a constant supply of energy
-- Oil was made a component in building machines
+- Steel was made a component in building machines
 - Fixed storage costs bug
 
 v0.0.2
@@ -387,8 +387,8 @@ v0.0.2
 - Reworked Science Techs
 - Balanced Science Tab
 - Removed the ability for science to be clicked - it can only be gained slowly
-- Energy and Charcoal engines
-- Charcoal
+- Energy and Titanium engines
+- Titanium
 - Removed Gas
 
 v0.0.1

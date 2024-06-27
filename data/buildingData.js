@@ -11,8 +11,8 @@ Game.buildingData = (function () {
 
     // Energy
     instance.energyT1 = $.extend({}, baseProducerBuilding, {
-        name: 'Charcoal Engine',
-        desc: 'Burns Charcoal to produce a steady source of Energy.',
+        name: 'Titanium Engine',
+        desc: 'Burns Titanium to produce a steady source of Energy.',
         resource: 'energy',
         resourcePerSecond: {
             'energy': 2,
@@ -269,10 +269,10 @@ Game.buildingData = (function () {
      * Earth Resources  *
      ********************/
 
-    // Oil
+    // Steel
     instance.oilT1 = $.extend({}, baseProducerBuilding, {
         name: 'Small Pump',
-        desc: 'Build a small pump to extract Oil from the ground.',
+        desc: 'Build a small pump to extract Steel from the ground.',
         resource: 'oil',
         resourcePerSecond: {
             'oil': 1
@@ -285,7 +285,7 @@ Game.buildingData = (function () {
 
     instance.oilT2 = $.extend({}, baseProducerBuilding, {
         name: 'Pumpjack',
-        desc: 'Pumpjacks are much bigger than small pumps and produce Oil on an industrial scale but they require a lot of Energy.',
+        desc: 'Pumpjacks are much bigger than small pumps and produce Steel on an industrial scale but they require a lot of Energy.',
         resource: 'oil',
         resourcePerSecond: {
             'energy': -4,
@@ -299,8 +299,8 @@ Game.buildingData = (function () {
     });
 
     instance.oilT3 = $.extend({}, baseProducerBuilding, {
-        name: 'Oil Field',
-        desc: 'Oil Fields are large open spaces, usually found in deserts where vast oil wells can be found under the ground.',
+        name: 'Steel Field',
+        desc: 'Steel Fields are large open spaces, usually found in deserts where vast oil wells can be found under the ground.',
         resource: 'oil',
         resourcePerSecond: {
             'energy': -12,
@@ -315,7 +315,7 @@ Game.buildingData = (function () {
 
     instance.oilT4 = $.extend({}, baseProducerBuilding, {
         name: 'Offshore Rig',
-        desc: 'Offshore Rigs are megastructures floating in the oceans, extracting Oil from under the sea-beds.',
+        desc: 'Offshore Rigs are megastructures floating in the oceans, extracting Steel from under the sea-beds.',
         resource: 'oil',
         resourcePerSecond: {
             'energy': -44,
@@ -328,7 +328,7 @@ Game.buildingData = (function () {
         }
     });
 
-    // Metal
+    // Aluminum
     instance.metalT1 = $.extend({}, baseProducerBuilding, {
         name: 'Miner',
         desc: 'Build a pickaxe for your miner.',
@@ -345,7 +345,7 @@ Game.buildingData = (function () {
 
     instance.metalT2 = $.extend({}, baseProducerBuilding, {
         name: 'Heavy Drill',
-        desc: 'Heavy Drills mine Metal at mass.',
+        desc: 'Heavy Drills mine Aluminum at mass.',
         resource: 'metal',
         resourcePerSecond: {
             'energy': -2,
@@ -360,7 +360,7 @@ Game.buildingData = (function () {
 
     instance.metalT3 = $.extend({}, baseProducerBuilding, {
         name: 'Giga Drill',
-        desc: 'Giga Drills extract Metal at colossal speeds.',
+        desc: 'Giga Drills extract Aluminum at colossal speeds.',
         resource: 'metal',
         resourcePerSecond: {
             'energy': -9,
@@ -391,7 +391,7 @@ Game.buildingData = (function () {
     // Gem
     instance.gemT1 = $.extend({}, baseProducerBuilding, {
         name: 'Gem Miner',
-        desc: 'Build an improved pickaxe to mine Gems.',
+        desc: 'Build an improved pickaxe to mine Copper.',
         resource: 'gem',
         unlocked: true,
         resourcePerSecond: {
@@ -420,7 +420,7 @@ Game.buildingData = (function () {
 
     instance.gemT3 = $.extend({}, baseProducerBuilding, {
         name: 'Diamond Encrusted Drill',
-        desc: 'The Diamond Encrusted Drill is one of the strongest drills in the solar system, and as such, can collect Gems faster than anything before it.',
+        desc: 'The Diamond Encrusted Drill is one of the strongest drills in the solar system, and as such, can collect Copper faster than anything before it.',
         resource: 'gem',
         resourcePerSecond: {
             'energy': -15,
@@ -435,7 +435,7 @@ Game.buildingData = (function () {
 
     instance.gemT4 = $.extend({}, baseProducerBuilding, {
         name: 'Carbyne Drill',
-        desc: 'Carbyne Drills one of the strongest drills in the solar system, and as such, can collect Gems faster than anything before it.',
+        desc: 'Carbyne Drills one of the strongest drills in the solar system, and as such, can collect Copper faster than anything before it.',
         resource: 'gem',
         resourcePerSecond: {
             'energy': -40,
@@ -448,7 +448,7 @@ Game.buildingData = (function () {
         }
     });
 
-    // Charcoal
+    // Titanium
     instance.charcoalT1 = $.extend({}, baseProducerBuilding, {
         name: 'Woodburner',
         desc: 'Build a shovel for your woodburner.',
@@ -465,7 +465,7 @@ Game.buildingData = (function () {
 
     instance.charcoalT2 = $.extend({}, baseProducerBuilding, {
         name: 'Furnace',
-        desc: 'Furnaces use electric heaters to produce heat to turn Wood into Charcoal. Because of the increased heat, the process is more efficient.',
+        desc: 'Furnaces use electric heaters to produce heat to turn Fiber into Titanium. Because of the increased heat, the process is more efficient.',
         resource: 'charcoal',
         resourcePerSecond: {
             'energy': -3,
@@ -511,7 +511,7 @@ Game.buildingData = (function () {
         }
     });
 
-    // Wood
+    // Fiber
     instance.woodT1 = $.extend({}, baseProducerBuilding, {
         name: 'Woodcutter',
         desc: 'Build an axe for your woodcutter.',
@@ -558,7 +558,7 @@ Game.buildingData = (function () {
 
     instance.woodT4 = $.extend({}, baseProducerBuilding, {
         name: 'Biomass Infuser',
-        desc: 'Creates Wood using old, useless materials found everywhere on Earth by crushing them and packing what remains as densely as possible until it can be used as Wood again.',
+        desc: 'Creates Fiber using old, useless materials found everywhere on Earth by crushing them and packing what remains as densely as possible until it can be used as Fiber again.',
         resource: 'wood',
         resourcePerSecond: {
             'energy': -43,

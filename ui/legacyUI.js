@@ -2,15 +2,15 @@ function registerLegacyBindings() {
 
 	Game.ui.bindElement('uraniumStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Uranium)*storagePrice); });
 	Game.ui.bindElement('uraniumStorageLunariteCost', function(){ return Game.settings.format(getStorage(RESOURCE.Uranium)/2.5*storagePrice); });
-	Game.ui.bindElement('oilStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Oil)*storagePrice); });
-	Game.ui.bindElement('oilStorageMetalCost', function(){ return Game.settings.format(getStorage(RESOURCE.Oil)/2.5*storagePrice); });
-	Game.ui.bindElement('metalStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Metal)*storagePrice); });
+	Game.ui.bindElement('oilStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Steel)*storagePrice); });
+	Game.ui.bindElement('oilStorageMetalCost', function(){ return Game.settings.format(getStorage(RESOURCE.Steel)/2.5*storagePrice); });
+	Game.ui.bindElement('metalStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Aluminum)*storagePrice); });
 	Game.ui.bindElement('gemStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Gem)*storagePrice); });
 	Game.ui.bindElement('gemStorageMetalCost', function(){ return Game.settings.format(getStorage(RESOURCE.Gem)/2.5*storagePrice); });
-	Game.ui.bindElement('charcoalStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Charcoal)*storagePrice); });
-	Game.ui.bindElement('charcoalStorageMetalCost', function(){ return Game.settings.format(getStorage(RESOURCE.Charcoal)/2.5*storagePrice); });
-	Game.ui.bindElement('woodStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Wood)*storagePrice); });
-	Game.ui.bindElement('woodStorageMetalCost', function(){ return Game.settings.format(getStorage(RESOURCE.Wood)/2.5*storagePrice); });
+	Game.ui.bindElement('charcoalStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Titanium)*storagePrice); });
+	Game.ui.bindElement('charcoalStorageMetalCost', function(){ return Game.settings.format(getStorage(RESOURCE.Titanium)/2.5*storagePrice); });
+	Game.ui.bindElement('woodStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Fiber)*storagePrice); });
+	Game.ui.bindElement('woodStorageMetalCost', function(){ return Game.settings.format(getStorage(RESOURCE.Fiber)/2.5*storagePrice); });
 	Game.ui.bindElement('lunariteStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Lunarite)*storagePrice); });
 	Game.ui.bindElement('lunariteStorageMetalCost', function(){ return Game.settings.format(getStorage(RESOURCE.Lunarite)*4*storagePrice); });
 	Game.ui.bindElement('methaneStorageCost', function(){ return Game.settings.format(getStorage(RESOURCE.Methane)*storagePrice); });

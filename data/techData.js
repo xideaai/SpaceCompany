@@ -86,7 +86,7 @@ Game.techData = (function () {
     
     instance.unlockBasicEnergy = $.extend({}, techBase, {
         name: 'Basic Energy Production',
-        desc: 'You will be able to produce power from steam engines using Charcoal made from wood in a furnace.',
+        desc: 'You will be able to produce power from steam engines using Titanium made from wood in a furnace.',
         buttonText: 'Unlock Basic Energy Production',
         type: TECH_TYPE.UNLOCK,
         unlocked: true,
@@ -100,9 +100,9 @@ Game.techData = (function () {
     });
 
     instance.unlockOil = $.extend({}, techBase, {
-        name: 'Oil Processing',
-        desc: 'Oil used to fuel more advanced machines that gather resources and also to produce more power than basic means. Unlocking Oil Processing allows you to extract it from the ground.',
-        buttonText: 'Unlock Oil',
+        name: 'Steel Processing',
+        desc: 'Steel used to fuel more advanced machines that gather resources and also to produce more power than basic means. Unlocking Steel Processing allows you to extract it from the ground.',
+        buttonText: 'Unlock Steel',
         type: TECH_TYPE.UNLOCK,
         costType: COST_TYPE.FIXED,
         cost: {
@@ -449,8 +449,8 @@ Game.techData = (function () {
 
     instance.upgradeEngineTech = $.extend({}, techBase, {
         name: 'Upgrade Engine Technology',
-        desc: 'Upgrading Engine Technology will make Charcoal engines produce 4 Energy per second instead of 2.',
-        buttonText: 'Upgrade Charcoal Engines',
+        desc: 'Upgrading Engine Technology will make Titanium engines produce 4 Energy per second instead of 2.',
+        buttonText: 'Upgrade Titanium Engines',
         type: TECH_TYPE.UPGRADE,
         costType: COST_TYPE.FIXED,
         cost: {

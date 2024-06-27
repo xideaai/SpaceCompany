@@ -39,8 +39,8 @@ Game.resourceData = (function () {
      *********************/
 
     instance.energy = {
-        name: 'Energy',
-        desc: 'Energy is created by power sources such as steam engines, solar power and advances even to fusion power and nuclear energy. The maximum you can hold to start with is 100,000 Energy, but batteries are unlockable which can increase this.',
+        name: 'Bitcoin',
+        desc: 'Bitcoin is a decentralized digital currency created in 2009, operating without intermediaries. It can be mined or acquired through exchanges. The total supply is capped at 21 million Bitcoins. Secure wallets are available to store and manage Bitcoin, with advanced options for enhanced security.',
         icon: 'energyIcon',
         category: 'energy',
         baseCapacity: 50000,
@@ -58,7 +58,7 @@ Game.resourceData = (function () {
 
     instance.uranium = {
         name: 'Uranium',
-        desc: 'Metal is one of the primary resources. It is used for many things, including storage upgrades, machinery and most things in space.',
+        desc: 'Aluminum is one of the primary resources. It is used for many things, including storage upgrades, machinery and most things in space.',
         icon: 'uraniumIcon',
         category: 'energy',
         baseCapacity: 50,
@@ -79,8 +79,8 @@ Game.resourceData = (function () {
      ********************/
 
     instance.oil = {
-        name: 'Oil',
-        desc: 'Oil is pumped up from the ground and is used to build Tier 2 resource gatherers.',
+        name: 'Steel',
+        desc: 'Steel is pumped up from the ground and is used to build Tier 2 resource gatherers.',
         icon: 'oilIcon',
         category: 'earth',
         baseCapacity: 50,
@@ -88,8 +88,8 @@ Game.resourceData = (function () {
     };
 
     instance.metal = {
-        name: 'Metal',
-        desc: 'Metal is one of the primary resources. It is used for many things, including storage upgrades, machinery and most things in space.',
+        name: 'Aluminum',
+        desc: 'Aluminum is one of the primary resources. It is used for many things, including storage upgrades, machinery and most things in space.',
         icon: 'metalIcon',
         category: 'earth',
         baseCapacity: 50,
@@ -98,7 +98,7 @@ Game.resourceData = (function () {
 
     instance.gem = {
         name: 'Gem',
-        desc: 'Gems are one of the primary resources. They are used for advanced machines and for powerful tools and components. They are more useful in later game.',
+        desc: 'Copper are one of the primary resources. They are used for advanced machines and for powerful tools and components. They are more useful in later game.',
         icon: 'gemIcon',
         category: 'earth',
         baseCapacity: 50,
@@ -106,8 +106,8 @@ Game.resourceData = (function () {
     };
 
     instance.charcoal = {
-        name: 'Charcoal',
-        desc: 'Charcoal is a secondary tier resource and is used by Engines to produce power for your company. 1 Charcoal is created by burning wood',
+        name: 'Titanium',
+        desc: 'Titanium is a secondary tier resource and is used by Engines to produce power for your company. 1 Titanium is created by burning wood',
         icon: 'charcoalIcon',
         category: 'earth',
         baseCapacity: 50,
@@ -115,8 +115,8 @@ Game.resourceData = (function () {
     };
 
     instance.wood = {
-        name: 'Wood',
-        desc: 'Wood is one of the primary resources. It is used more often in early game for tools and buildings.',
+        name: 'Fiber',
+        desc: 'Fiber is one of the primary resources. It is used more often in early game for tools and buildings.',
         icon: 'woodIcon',
         category: 'earth',
         baseCapacity: 50,
@@ -296,7 +296,7 @@ Game.storageData = (function(){
      ********************/
 
     instance.storageUpgradeOil = $.extend({}, baseUpgradeData, {
-        desc: 'Upgrade your Oil storage size to ',
+        desc: 'Upgrade your Steel storage size to ',
         resource: 'oil',
         cost: {
             'oil': 50,
@@ -305,7 +305,7 @@ Game.storageData = (function(){
     });
 
     instance.storageUpgradeMetal = $.extend({}, baseUpgradeData, {
-        desc: 'Upgrade your Metal storage size to ',
+        desc: 'Upgrade your Aluminum storage size to ',
         resource: 'metal',
         cost: {
             'metal': 50
@@ -322,7 +322,7 @@ Game.storageData = (function(){
     });
 
     instance.storageUpgradeCharcoal = $.extend({}, baseUpgradeData, {
-        desc: 'Upgrade your Charcoal storage size to ',
+        desc: 'Upgrade your Titanium storage size to ',
         resource: 'charcoal',
         cost: {
             'charcoal': 50,
@@ -331,7 +331,7 @@ Game.storageData = (function(){
     });
 
     instance.storageUpgradeWood = $.extend({}, baseUpgradeData, {
-        desc: 'Upgrade your Wood storage size to ',
+        desc: 'Upgrade your Fiber storage size to ',
         resource: 'wood',
         cost: {
             'wood': 50,
